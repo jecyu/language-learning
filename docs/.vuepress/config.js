@@ -3,9 +3,19 @@ module.exports = {
   title: "Language Crack",
   description: "外语学习知识手册",
   themeConfig: {
+    head: [
+      [
+        "link",
+        {
+          rel: "icon",
+          href: "./favicon.ico"
+        }
+      ]
+    ],
     nav: [
       { text: "英语", link: "/english/" },
       { text: "日语", link: "/japanese/" },
+      { text: "翻译练习", link: "/translator/" },
       {
         text: "GitHub",
         link: "https://github/Jecyu/language-learning"
@@ -22,7 +32,7 @@ module.exports = {
         {
           title: "英语",
           collapsable: false,
-          children: ["", "hearing", "reading", "writing"]
+          children: ["reading", "", "listening",  "writing"]
         }
       ],
       "/japanese/": [
@@ -30,6 +40,13 @@ module.exports = {
           title: "日语",
           collapsable: false,
           children: ["", "listening", "reading"]
+        }
+      ],
+      "/translator/": [
+        {
+          title: "翻译练习",
+          collapsable: false,
+          children: [""]
         }
       ]
     },
