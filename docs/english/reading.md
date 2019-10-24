@@ -24,6 +24,28 @@ Triple equals (`===`) checks for strict equality, which <u>means</u> both the ty
 
 Type coercion <u>means</u> the values are converted into the same type.
 
-## 语法
+## 简单词的多种用法
+
+### take
+
+### run
+
+### pure
+
+## 生词
+
+### mutate
+
+## 高频词汇
+
+计算机相关文章
+
+### although
+
+### represent
+
+### interface
+
+- mutation
 
 ## 参考阅读
