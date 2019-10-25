@@ -24,6 +24,20 @@ Triple equals (`===`) checks for strict equality, which <u>means</u> both the ty
 
 Type coercion <u>means</u> the values are converted into the same type.
 
+### ... be expensive/cheap to do ...
+
+Components may be expensive to create.
+
+## In 和 Into 的用法及其短语分类理解
+
+### 一、介词 in 短语的用法
+
+1. in 用于地点、空间、某范围、方位时，介词短语或其动词短语汇总。
+
+**in** the street 在街上；**in** here 在这里
+
+- Components can initiate side effects <u>in lifecycle methods.</u>
+
 ## 简单词的多种用法
 
 ### take
@@ -41,6 +55,9 @@ Type coercion <u>means</u> the values are converted into the same type.
 计算机相关文章
 
 ### although
+
+- 虽然，但是
+- 不过
 
 ### represent
 

@@ -11,5 +11,13 @@
 - 主语从句换序
 - 同位语换序
 - 插入语换序
+- 状语换序
   
 请看下面的例子：（重新构造例子）
+
+#### 状语换序
+
+1. Components can initiate side effects <u>in lifecycle methods.</u>（状语换序）
+组件在初始化生命周期方法时具有副作用
+2. Send us a message <u>in case you have any difficulty.**</u>**（状语从句换序）
+万一有什么困难，请给我们一封信。
