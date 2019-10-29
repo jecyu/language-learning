@@ -6,6 +6,17 @@
 - increment
 - mutable adj. 不定的，可变的
 - equality n. 平等、同等
+- pending adj. 待定的
+- fulfil 完成
+- reject 拒绝
+- module 模块 n. 组件
+- element n. 成分，要素，元素，基本原理，（复数）恶劣天气
+- prototype n.原型，雏形
+- canvas n. 帆布，（帆布）画布，油画
+- status n.地位，身份，地形，状况
+- block n. 块；街区；<英>大楼，大厦；障碍物，阻碍 vt. 阻止；阻塞；限制
+- necessarily
+- render
 
 ## 参考资料
 

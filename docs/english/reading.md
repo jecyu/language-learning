@@ -28,6 +28,10 @@ Type coercion <u>means</u> the values are converted into the same type.
 
 Components may be expensive to create.
 
+### neither ... nor ...
+
+
+
 ## In 和 Into 的用法及其短语分类理解
 
 ### 一、介词 in 短语的用法
@@ -37,6 +41,13 @@ Components may be expensive to create.
 **in** the street 在街上；**in** here 在这里
 
 - Components can initiate side effects <u>in lifecycle methods.</u>
+
+## With 的各种搭配用法及分类理解
+
+### “有关动词+with...”作“随身有、随身携带、拥有、设有、备有、伴有、染有、患有”等讲时的用法举例
+
+Get away with yours son. 带着你的儿子走。
+A pending promise can either be fulfilled with a value，or rejected with a reason (error).
 
 ## 简单词的多种用法
 
