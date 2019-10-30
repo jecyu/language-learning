@@ -61,4 +61,7 @@
 
 #### 拆开定语从句
 
-1. After the war, his friend Kraemer got him a job as an instructor in an Army training school that paid $10,000 a year.大战结束后，他的朋友克莱摩介绍他到一所军事训练学校任教，年薪一万美元。
+1. After the war, his friend Kraemer got him a job as an instructor in an Army training school that paid $10,000 a year.大战结束后，他的朋友克莱摩介绍他到一所军事训练学校任教，// 年薪一万美元。
+
+2. Just then the fish gave a sudden lurch <u>that pulled the old man down onto the bow</u>
+正在这当儿，那条大鱼突然把船扯得晃荡了一下，// 老头儿给脱的倒向船头那边去。

@@ -30,7 +30,9 @@ Components may be expensive to create.
 
 ### neither ... nor ...
 
+### be independent of
 
+### ...depend on ...
 
 ## In 和 Into 的用法及其短语分类理解
 
@@ -48,6 +50,15 @@ Components may be expensive to create.
 
 Get away with yours son. 带着你的儿子走。
 A pending promise can either be fulfilled with a value，or rejected with a reason (error).
+
+## Whose 的用法
+
+### 引导定语从句的 whose 作“他的”、“她的”和“他们的”讲，而该从句修饰前面表示人的名词或词组
+
+1. The students <u>whose exercise-books I showed</u> you yesterday will be here soon.
+昨天我给你看过练习本的那些学生，很快就要到这里来。（限制性定语从句）
+
+2. A stateless component is a component <u>whose behavior does not depend on its state.</u>
 
 ## 简单词的多种用法
 
@@ -69,6 +80,12 @@ A pending promise can either be fulfilled with a value，or rejected with a reas
 
 - 虽然，但是
 - 不过
+
+### altogether
+
+- 完全
+
+1. I don't alogther agree with you.
 
 ### represent
 

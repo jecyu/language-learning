@@ -17,6 +17,8 @@
 - block n. 块；街区；<英>大楼，大厦；障碍物，阻碍 vt. 阻止；阻塞；限制
 - necessarily
 - render
+- internal adj. 内部的；里面的；体内的；（机构）内部的
+- interval n.间隔，休息时间，（数学）区间，（音乐）音程
 
 ## 参考资料
 
