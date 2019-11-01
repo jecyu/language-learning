@@ -34,6 +34,8 @@ Components may be expensive to create.
 
 ### ...depend on ...
 
+### ...one of the xxxx...
+
 ## In 和 Into 的用法及其短语分类理解
 
 ### 一、介词 in 短语的用法
@@ -59,6 +61,21 @@ A pending promise can either be fulfilled with a value，or rejected with a reas
 昨天我给你看过练习本的那些学生，很快就要到这里来。（限制性定语从句）
 
 2. A stateless component is a component <u>whose behavior does not depend on its state.</u>
+
+## while 的用法
+
+## as 的主要用法和判别
+
+### 用 as 引出宾语补语、主语补语
+
+#### as 引出的宾语补语有如下几种表示形式
+
+A. as + 名词
+
+1. We usually define energy <u>as the ability to do work.</u>
+我们通常下定义说，能是作功的本领。
+2. Use `Object.keys()` to return the ingredients of the recipe <u>as an array.</u>
+使用`Object.keys()`以数组形式返回食谱的成分。（以... 形式返回，疑问）
 
 ## 简单词的多种用法
 
@@ -87,10 +104,25 @@ A pending promise can either be fulfilled with a value，or rejected with a reas
 
 1. I don't alogther agree with you.
 
+### since
+
+conj. 因为；由于；既然；从...以后
+adv. 以后；后来；自...以后；从...以来
+prep. 自...以后；从...以来；（表示气愤）何曾
+
+1. **Since** time has such different meaning in different cultures, communication if often difficult.
+**因为**时间对于不同文化背景的人有如此多的不同的意义，相互间的交流常常会很困难。
+
 ### represent
 
 ### interface
 
 - mutation
+
+#### available
+
+adj. 可获得的；可购得的；可找到的；有空的
+
+
 
 ## 参考阅读

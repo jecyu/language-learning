@@ -28,6 +28,30 @@
 
 #### （一）单词
 
+### 二、具体译法
+
+
+由于两种语言的差别，我们在翻译中不得不经常使用具体译法，也就是具体化的翻译方法。<u>所谓具体译法，，就是在翻译过程中把原文中抽象或者是比较抽象的单词、词组、成语或者句子用具体或者是比较具体的单词、词组、成语或者句子来进行翻译，</u>从而消除或降低语言差别给翻译带来的损失，使译文产生与原文同样的效果。
+
+#### （一）单词、词组和成语英译汉时具体译法的译例
+
+1. transportation 运输➡运输工具
+2. advertisement 广告➡广告资料
+3. propaganda 宣传➡宣传机关
+4. translation 翻译➡翻译作品
+5. government 政府➡政府官员
+
+#### （二）单词、词组何成语汉译英时具体译法的译例
+
+1. 大吵大闹 raise the roof
+2. 公开认错 stand in a white sheet
+3. 有花不完的钱 have enough money to burn
+
+#### 句子译例
+
+1. Since time has such different meaning <u>in different cultures</u>, communication if often difficult.
+因为时间对于<u>不同文化背景的人</u>有如此多的不同的意义，相互间的交流常常会很困难。
+
 ## 句法翻译
 
 ### 一、换序译法
@@ -47,7 +71,7 @@
 
 1. Components can initiate side effects <u>in lifecycle methods.</u>（状语换序）
 组件在初始化生命周期方法时具有副作用
-2. Send us a message <u>in case you have any difficulty.**</u>**（状语从句换序）
+2. Send us a message <u>in case you have any difficulty.</u>（状语从句换序）
 万一有什么困难，请给我们一封信。
 
 ### 二、断句译法
