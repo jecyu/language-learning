@@ -20,6 +20,9 @@
 - internal adj. 内部的；里面的；体内的；（机构）内部的
 - interval n.间隔，休息时间，（数学）区间，（音乐）音程
 - return
+- function n. 功能；函数；作用；职能 v. 运转；起作用；正常工作
+- functional adj. 实用的；作用的；功能的；机能的
+- functionally adv. 功能上
 
 ## 参考资料
 

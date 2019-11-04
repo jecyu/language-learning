@@ -36,6 +36,18 @@ Components may be expensive to create.
 
 ### ...one of the xxxx...
 
+其中之一，之一
+
+1. Then he made Conking even angrier by appointing <u>one of</u> Conking's political enemies Collector of Taxes for the port of New York.
+而后他有任命一位康克林的政敌负责纽约港的税收工作，此举更加激怒了康克林。
+
+### ...the ... number of ...
+
+...的数目，谓语动词用单数。
+
+1. Create a functionn batches that returns the maximum number of whole batches that can be cooked from a recipe.
+2. The number of students is increasing.
+
 ## In 和 Into 的用法及其短语分类理解
 
 ### 一、介词 in 短语的用法
@@ -63,6 +75,15 @@ A pending promise can either be fulfilled with a value，or rejected with a reas
 2. A stateless component is a component <u>whose behavior does not depend on its state.</u>
 
 ## while 的用法
+
+### 用 while 表示同时存在的两种事物的对比，引出并列分句，有时甚至是两个独立分词结构。
+
+1. Some substances are soluble, <u>while others are not.</u>
+有些物质是可溶的，而有些不是。
+2. Some experiments are difficult <u>while others are easy.</u>
+有些实验是难的，而其他一些实验是容易的。
+3. It accepts two objects as argument: the first object is recipe for the food, <u>while the second object is the available ingredients.</u>
+【注】while 引出的并列分句在后面时，while 前一般打逗号，但也有不打逗号的，如上面第二句。
 
 ## as 的主要用法和判别
 

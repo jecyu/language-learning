@@ -111,7 +111,7 @@ function App() {
 
 ```js
 /**
- 这个函数接收两个对象作为参数：第一个对象是食谱上要求的成分表，第二个对象是当前能够使用的成分。每一种成分的值是代表它们的单位数量有多少。
+ 这个函数接收两个对象作为参数：第一个对象是食谱上要求的成分表，而第二个对象是当前能够使用的成分。每一种成分的值是代表它们的单位数量有多少。
  `batches(recipe, available)`
 */
 
@@ -142,7 +142,7 @@ batches(
 
 <!-- 第一步，使用 `Object.keys()`来处理 recipe 获得一个成分的数组， -->
 第一步，使用`Object.keys()`以数组形式返回食谱的成分
-然后使用 `Array.prototype.map()` 针对每种可以获得的成分的数量与菜谱上要求的成分数量作比例处理。如其中一个菜谱上要求的成分根本不可用，则比率值将等于 `NaN`。因此在这种情况下，需要使用逻辑与符号赋值为0。
+然后使用 `Array.prototype.map()` 针对每种可以获得的成分的数量与菜谱上要求的成分数量作比例处理。<!-- 如其中一个菜谱上要求的成分根本不可用， -->只要有一个菜谱上要求的成分不可用，则比率值就等于 `NaN`。因此在这种情况下，需要使用逻辑与符号赋值为0。
 
 第二步，使用展开序列符`...`展开成分的比率值数组，传递给`Math.min()`函数获得最小的比率。最后传递这个比率给`Math.floor()`向上兼容取整获得整个批处理的最大数值。
 
@@ -151,4 +151,19 @@ const batches = (recipe, available) =>
   Math.floor(
     Math.min(...Object.keys(recipe).map(k => available[k] / recipe[k] || 0))
   )
+```
+
+### 创建一个与方法`Function.prototype.bind`功能相同的单例函数 `bind`<sup style="color: green;">INTERMEDIATE</sup>
+
+```js
+function example() {
+  console.log(this);
+}
+const boundExample = bind(example, { a: true });
+boundExample.call({b: true }) // logs { a: true }
+```
+
+返回一个接收随机数量参数的函数，这些参数通过展开符`...`来收集。从函数上可以看出，它返回调用`fn`通过`Function.prototype.apply`方法应用上下文 context 以及一个数组形式的参数的新函数。
+```js
+const bind = (fn, context) => (...args) => fn.apply(context. args);
 ```
