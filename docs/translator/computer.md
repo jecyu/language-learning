@@ -23,6 +23,7 @@
 - function n. 功能；函数；作用；职能 v. 运转；起作用；正常工作
 - functional adj. 实用的；作用的；功能的；机能的
 - functionally adv. 功能上
+- standalone
 
 ## 参考资料
 

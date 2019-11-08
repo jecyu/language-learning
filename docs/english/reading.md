@@ -12,7 +12,8 @@ Tons of files get downloaded <u>from</u> the internet every day <u>ranging from 
 
 ### do...using
 
-Get pixel color of Base64 PNG <u>using javascript </u>.
+1. Get pixel color of Base64 PNG <u>using javascript </u>.
+2. Can you show an example using one?
 
 ### What is the xxx between ... and ..
 
@@ -34,6 +35,12 @@ Components may be expensive to create.
 
 ### ...depend on ...
 
+### be used for
+
+用来做；被用来；被用于
+
+1. Since setState is asynchronous, the callback function is used for any post action.
+
 ### ...one of the xxxx...
 
 其中之一，之一
@@ -47,6 +54,40 @@ Components may be expensive to create.
 
 1. Create a functionn batches that returns the maximum number of whole batches that can be cooked from a recipe.
 2. The number of students is increasing.
+
+### number
+
+- a number of people/times 一些人
+- a large number of 大量的...
+
+## as 的主要用法和判别
+
+### 用 as 引出宾语补语、主语补语
+
+#### as 引出的宾语补语有如下几种表示形式
+
+A. as + 名词
+
+1. We usually define energy <u>as the ability to do work.</u>
+我们通常下定义说，能是作功的本领。
+2. Use `Object.keys()` to return the ingredients of the recipe <u>as an array.</u>
+使用`Object.keys()`以数组形式返回食谱的成分。（以... 形式返回，疑问）
+
+#### as 引出主语补语
+
+I. 由 as 引出另一种形式的主语补语
+
+II. 由 as 引出另一种形式的主语补语
+
+1. I have come here as a manager. 我以经理的身份来到这里。
+2. What is the purpose of callback function as an argument of setState ？
+
+## But 及其搭配关系的用法和判断
+
+### but 作“但是”讲，连接两个并列成分或两个并列句子
+
+1. Theory is something but practice is everything. 理论固然重要，但实践尤其重要。
+2. Callback functions are invoked later by a piece of code but can be declared on initialzation without being invoked.
 
 ## In 和 Into 的用法及其短语分类理解
 
@@ -65,6 +106,12 @@ Components may be expensive to create.
 Get away with yours son. 带着你的儿子走。
 A pending promise can either be fulfilled with a value，or rejected with a reason (error).
 
+### “with + 介词宾语 + 宾语补（足）语”结构用于说明附带情况或交代细节举例。注意其中宾语补足语可以用现在分词或其短语、过去分词或其短语、副词、形容词、介词或不定式短语形式出现。
+
+1. **With** the temperature being constant, the volume changes **with** the pressure.
+当温度保持恒定不变时，体积随压强而变。
+2. **With** this technique, prototypes are ignored.
+
 ## Whose 的用法
 
 ### 引导定语从句的 whose 作“他的”、“她的”和“他们的”讲，而该从句修饰前面表示人的名词或词组
@@ -73,6 +120,17 @@ A pending promise can either be fulfilled with a value，or rejected with a reas
 昨天我给你看过练习本的那些学生，很快就要到这里来。（限制性定语从句）
 
 2. A stateless component is a component <u>whose behavior does not depend on its state.</u>
+
+
+## When 的用法和判别
+
+### When 引导时间状语从句
+
+When water becomes solid, we call it ice. 当水变成固体时，我们把它叫做冰。
+【注1】<u>注意 when 后用完成时，when 含义相当于 after。</u>若 when 后用一般过去时，而主句用过去完成时，when 含义相当于 before。例如：
+1. When （=After）he had sold all the newspapers, he went home. 他卖完报纸后就回家去了。（若使用 After 时，则后面也可用过去一般时 sold，因 after 词义已表明动作先后了。）
+2. The callback function is invoked when `setState` has finished and the component gets rendered.
+3. He had been salesman when（或 before）he was told to be a teacher. 叫他当教师之前，他当过营业员。
 
 ## while 的用法
 
@@ -84,19 +142,6 @@ A pending promise can either be fulfilled with a value，or rejected with a reas
 有些实验是难的，而其他一些实验是容易的。
 3. It accepts two objects as argument: the first object is recipe for the food, <u>while the second object is the available ingredients.</u>
 【注】while 引出的并列分句在后面时，while 前一般打逗号，但也有不打逗号的，如上面第二句。
-
-## as 的主要用法和判别
-
-### 用 as 引出宾语补语、主语补语
-
-#### as 引出的宾语补语有如下几种表示形式
-
-A. as + 名词
-
-1. We usually define energy <u>as the ability to do work.</u>
-我们通常下定义说，能是作功的本领。
-2. Use `Object.keys()` to return the ingredients of the recipe <u>as an array.</u>
-使用`Object.keys()`以数组形式返回食谱的成分。（以... 形式返回，疑问）
 
 ## 简单词的多种用法
 
@@ -144,6 +189,12 @@ prep. 自...以后；从...以来；（表示气愤）何曾
 
 adj. 可获得的；可购得的；可找到的；有空的
 
+#### equivalent
 
+n. 等值；同义词；当量；同期地层
+adj. 等价的；同等的；同意义的
+to be equivalent to sth. 相当于某事物
+
+1. Create a standalone function `bind` that is functionally equivalent to the method `Function.prototype.bind.`
 
 ## 参考阅读

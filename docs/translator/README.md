@@ -153,7 +153,8 @@ const batches = (recipe, available) =>
   )
 ```
 
-### 创建一个与方法`Function.prototype.bind`功能相同的单例函数 `bind`<sup style="color: green;">INTERMEDIATE</sup>
+<!-- ### 创建一个与方法`Function.prototype.bind`功能相同的单例函数 `bind`<sup style="color: green;">INTERMEDIATE</sup> -->
+### 创建一个功能上相当于方法`Function.prototype.bind`的单例函数 `bind`<sup style="color: green;">INTERMEDIATE</sup>
 
 ```js
 function example() {
@@ -163,7 +164,67 @@ const boundExample = bind(example, { a: true });
 boundExample.call({b: true }) // logs { a: true }
 ```
 
-返回一个接收随机数量参数的函数，这些参数通过展开符`...`来收集。从函数上可以看出，它返回调用`fn`通过`Function.prototype.apply`方法应用上下文 context 以及一个数组形式的参数的新函数。
+返回一个接收任意数量参数的函数，这些参数通过扩展运算符`...`来获取。从函数上可以看出，它返回通过`Function.prototype.apply`方法接收上下文 context 以及一个数组形式的参数来调用`fn`函数的结果。
 ```js
 const bind = (fn, context) => (...args) => fn.apply(context. args);
 ```
+
+### 回调函数作为`setState` 的一个参数的目的是什么？
+
+当 `setState` 执行和组件渲染完成后，这个回调函数将会被调用。因为 `setState` 的执行是异步的，所以回调函数可以用在任何一次 post 操作。
+
+```js
+setState({ name: "sudheer" }, () => {
+  console.log("The name has updated and component re-rendered")
+})
+```
+
+好的回答：
+- 这个回调函数将会在 `setState`执行后被调用，并且可以用在任意一次的 post 动作。
+- 建议使用生命周期方法而不是这个 callback 回调函数。
+
+### 什么是回调？你可以举一个例子来说明吗？
+
+回调就是一个函数，作为一个参数被传入另外一个函数中，当一个事件发生后或者一个确定的任务执行后将会被执行，通常被用于异步的代码。回调函数除了可以被一段代码不久后调用外，它也可以在初始化时声明而不被调用。
+
+例如，事件监听器是异步回调的，只有当指定的事件发生时，它才会被执行。
+```js
+function onClick() {
+  console.log("The user clicked on the page.")
+}
+document.addEventListener("click", onClick);
+```
+
+然后，回调也可以是同步的。下面的`map`函数接受一个回调函数，它会被同步调用在每一个循环的迭代（数组元素）。
+```js
+const map = (arr, callback) => {
+  const result = []
+  for (let i = 0; i < arr.length; i++) {
+    result.push(callback(arr[i], i))
+  }
+  return result;
+}
+map([1, 2, 3, 4, 5], n => n * 2) // [2, 4, 6, 8, 10]
+```
+很高兴听到
+- 函数在 JavaScript 中是一类对象。
+- 回调 vs Promise
+
+### 你是怎么使用 JavaScript 拷贝一个对象的？<sup style="color: green;">INTERMEDIATE</sup>
+
+使用对象扩展运算符，可以把该对象自身可枚举的属性拷贝到新的对象中。这种方法实现的是浅拷贝。
+```js
+const obj = { a: 1, b: 2}
+const shallowClone = { ...obj }
+```
+
+使用这个方式不会拷贝原型链的东西。另外，嵌套的对象也不被拷贝，相反它们的引用地址会被拷贝，所以嵌套对象仍让跟原对象一样指向相同的对象。深拷贝是一种更复杂的拷贝方式，为了有效地拷贝可能会被嵌入到对象里的任何对象类型（日期、正则表达式、函数、Set等等）。
+
+其他可选的方案包括：
+- `JSON.parse(JSON.stringify(obj))` 可以用来深拷贝一个简单的对象，但是它占用CPU资源，并且只能接受有效的 JSON 结构。（因此它排除了函数以及不允许循环引用。）
+- `Object.assign({}, obj)` 是另外一种可选方案。
+- `Object.keys(obj).reduce((acc, key) => (acc[key], acc), {})` 是另外一种比较冗余的选择，更深入地展示了深拷贝的概念。（这里初始值是一个空对象，之后进行一一拷贝）
+
+很高兴能听到：
+- JavaScript 传递对象只是传递引用的地址，这意味着拷贝嵌套的对象只是拷贝它们的引用地址，而不是它们的字面量。
+- 相同的方法可以用来合并两个对象。
