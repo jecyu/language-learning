@@ -2,6 +2,10 @@
 
 ## 句型框架
 
+### as though 
+
+虽然，尽管，好像
+
 ### stand for
 
 忍耐、忍受；主张；拥护
@@ -157,6 +161,11 @@ visit some professors from Europe 访问来自欧洲的几位教授；get（或o
 
 1. How do you compare two objects <u>in JavaScript</u>?
 
+## To 的搭配用法及其分类理解
+
+### 五、介词 to 和有关动词搭配时作 “对......” 或 “向......” 讲举例
+
+appeal to... 向（法院即 the court），诉诸（法律即 the law 或武力即 force）
 
 ## With 的各种搭配用法及分类理解
 
@@ -220,6 +229,7 @@ When water becomes solid, we call it ice. 当水变成固体时，我们把它�
 ## 生词
 
 ### mutate
+
 
 ## 高频词汇
 

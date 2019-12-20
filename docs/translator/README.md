@@ -367,10 +367,36 @@ DOM（Document Object Model）是一个跨平台的 API，它可以把 HTML 和 
 - `domcument.getElementById()` 和 `document.querySelector()` 是常见的选择 DOM 节点的函数。
 - 通过给一个节点的 `innerHTML`属性设置一个新值及HTML 解析器运行字符串，提供了一种很简便的方式来添加动态的HTML内容进一个节点。
 
-## 什么是事件委托以及为什么它是有用的？你可以通过一个例子来说明怎么用吗？
+## 事件委托是什么，为什么它是有用的呢？你可以用一个例子来说明怎么用吗？<sup style="color: yellow;">INTERMEDIATE</sup>
 
-事件委托是一种技术，委托事件到一个共同的祖先元素。由于事件冒泡，
+事件委托是一种委将事件委派到单个共同祖先元素的技术。由于事件冒泡，
 
+<!-- 事件从DOM 树到根节点的冒泡，都可能通过渐进地执行任何在每一个祖先元素上的处理程序，进行监听。 -->事件通过在每个祖先元素上逐步执任何处理程序“冒泡”到 DOM 树，直到可能正在监听它的根。
+
+DOM 事件提供通过初始化事件 `Event.target`发起事件的元素的有用信息，这样允许父元素处理行为，好像目标元素正在监听事件一样，而不是所有的父亲的子元素或者是父元素本身。
+
+它有两个优点：
+- 它只需要注册一个元素的事件处理程序而不是成千上万个元素，从而提升了性能和减少内存的消耗。
+- 如果子元素是动态添加到父元素，则无需为它们注册新的事件侦听器。
+
+而不是：
+```js
+document.querySelectorAll("button").forEach(button => {
+  button.addEventListener("click", handleButtonClick);
+})
+```
+
+事件委托涉及使用条件判断来确保子目标匹配我们需要的元素：
+```js
+document.addEventListener("click", e => {
+  if (e.target.closest("button") {
+    handleButtonClick()
+  }
+})
+```
+
+面试官想要听到的：
+- 事件冒泡和事件捕获的区别。
 
 ## 参考资料
 
