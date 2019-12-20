@@ -24,6 +24,10 @@
 - functional adj. 实用的；作用的；功能的；机能的
 - functionally adv. 功能上
 - standalone
+- schedule
+  - v. 安排；预定；为...安排时间；将...列入
+  - n. 日程安排；明细表；工作计划；（电视或广播）节目表
+  - eg. Microtasks are usually scheduled for things that should happen straight after the currently executing script.
 
 ## 参考资料
 

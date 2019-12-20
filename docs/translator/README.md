@@ -1,6 +1,71 @@
 # 30 秒面试
 
-> 原文来自：[https://30secondsofinterviews.org/](https://30secondsofinterviews.org/)
+> 原文来自：[https://30secondsofinterviews.org/](https://30secondsofinterviews.org/)、
+
+## HTML 
+
+### img 图片标签上 的`alt` 属性的作用是什么？
+
+如果用户无法查看图像时，则`alt` 属性提供图像的替代信息。
+<!-- 则`alt` 属性给图片提供了一个可选的信息。 -->`alt` 属性应该用来描述除了那些仅用于装饰目的图像之外的任何图像
+，在这种情况下，图片的 `alt` 属性值应该留空。
+
+面试官想听到的：
+- 装饰图像应该拥有一个空的 `alt` 属性。
+- Web 爬虫使用`alt` 标签来理解图像内容，所以它们被认为对搜索引擎（SEO）优化很重要。
+- 把 `.` 放在 `alt` 标签末尾来提供网站的可访问性。
+
+## CSS
+
+### CSS BEM 是什么？
+
+BEM 方法是 一种 CSS 类的命名约定，旨在通过定义命名空间解决作用域问题来使 CSS代码 更具可维护性。BEM 主张块级元素修饰符，这是对自身结构的解释。
+<!-- （省略量词一个） -->
+块就是一个独立组件，可在项目中重复利用，它充当子组件（元素）的“命名空间”。
+<!-- 它是以命名空间的形式为子组件（元素）跨项目和行为重复使用。 -->
+当块或元素处于一种特定状态或者是结构或样式不同时，修饰符用作标记。
+<!-- （被动转主动） -->
+
+```css
+/* block component */
+.block {
+}
+
+/* element */
+.block__element {
+}
+
+/* modifier */
+.block__element--modifier {
+}
+```
+
+这里有一个在标签上使用类名的例子：
+
+```html
+<nav class="navbar">
+  <a href="/" class="navbar__link navbar__link--active"></a>
+  <a href="/" class="navbar__link"></a>
+  <a href="/" class="navbar__link"></a>
+</nav>
+```
+
+在这个例子中，`navbar` 是一个块，`navbar__link` 是一个元素，离开 `navbar` 组件是没有意义的。`navbar__link--active` 则是一个修饰符用来表明 `navbar__link` 元素的不同状态。
+
+因为修饰符是冗余的，更多选择是使用 `is-*` 标记来替代修饰符。
+```html
+<a href="/" class="navbar_link is-active"></a>
+```
+这些必须链接到元素的末尾，不应该单独使用，否则会导致作用域问题。
+```css
+.navbar__link.is-active {
+}
+```
+
+面试官想听到的：
+- 替代的解决作用域问题的方案类似 CSS-in-JS，[awesome-css-in-js](https://github.com/tuchk4/awesome-css-in-js/blob/master/README-ZH_CN.md)
+- 其他的方案（Vue的 scoped css）、css modules
+- 扩展：[css 命名：BEM, scoped css, css modules 与 css-in-js](https://juejin.im/post/5c25de5f6fb9a04a053fbf53)
 
 ## JavaScript
 
@@ -210,7 +275,8 @@ map([1, 2, 3, 4, 5], n => n * 2) // [2, 4, 6, 8, 10]
 - 函数在 JavaScript 中是一类对象。
 - 回调 vs Promise
 
-### 你是怎么使用 JavaScript 拷贝一个对象的？<sup style="color: green;">INTERMEDIATE</sup>
+<!-- ### 你是怎么使用 JavaScript 拷贝一个对象的？<sup style="color: green;">INTERMEDIATE</sup> -->
+### 在 JavaScript 中，你是怎么拷贝一个对象的？<sup style="color: green;">INTERMEDIATE</sup>
 
 使用对象扩展运算符，可以把该对象自身可枚举的属性拷贝到新的对象中。这种方法实现的是浅拷贝。
 ```js
@@ -223,8 +289,90 @@ const shallowClone = { ...obj }
 其他可选的方案包括：
 - `JSON.parse(JSON.stringify(obj))` 可以用来深拷贝一个简单的对象，但是它占用CPU资源，并且只能接受有效的 JSON 结构。（因此它排除了函数以及不允许循环引用。）
 - `Object.assign({}, obj)` 是另外一种可选方案。
-- `Object.keys(obj).reduce((acc, key) => (acc[key], acc), {})` 是另外一种比较冗余的选择，更深入地展示了深拷贝的概念。（这里初始值是一个空对象，之后进行一一拷贝）
+- `Object.keys(obj).reduce((acc, key) => (acc[key] = obj[key], acc), {})` 是另外一种比较冗余的选择，更深入地展示了深拷贝的概念。（这里初始值是一个空对象，之后进行一一拷贝）
 
 很高兴能听到：
 - JavaScript 传递对象只是传递引用的地址，这意味着拷贝嵌套的对象只是拷贝它们的引用地址，而不是它们的字面量。
 - 相同的方法可以用来合并两个对象。
+
+<!-- ### 你是怎么使用 JavaScript 比较两个对象是否相等？<sup style="color: green;">INTERMEDIATE</sup> -->
+### 在 JavaScript 中你是怎么比较两个对象是否相等？<sup style="color: green;">INTERMEDIATE</sup>
+
+即使两个不同的对象具有相同的属性和值，当使用`==`或`===`时，它们也不能被认为相等。这是因为它们是通过引用地址（内存空间）来比较的，不像原始类型只是比较值的相等。
+
+为了测试两个对象是否在结构上相等，我们需要一个助手函数。它会遍历每个对象的自身属性，并测试它们的属性值是否相等，包括嵌套的对象。可选地，通过传递 `true` 作为第三个参数来决定对象的原型可能也需要被测试是否相等。
+
+注意：这种方案没有企图去测试除了纯对象、数组、函数、日期以及原始值类型之外的数据结构的相等。
+
+```js
+function isDeepEqual(obj1, obj2, testPrototypes = false) {
+  if (obj1 === obj2) { // 原始值
+    return true
+  }
+
+  if (typeof obj1 === "function" && typeof obj2 === "function") {
+    return obj1.toString() === obj2.toString()
+  }
+
+  if (obj1 instanceof Date && obj2 instanceof Date) {
+    return obj1.getTime() === obj2.getTime()
+  }
+
+  if (Object.prototype.toString.call(obj1) !== Object.prototype.toString.call(obj2) || typeof obj1 !== "object") {
+    return false
+  }
+
+  const prototypesAreEqual = testPrototypes
+    ? isDeepEqual(
+        Object.getPrototypeOf(obj1),
+        Object.getPrototypeOf(obj2),
+        true
+    )
+    : true
+  const obj1Props = Object.getOwnPropertyNames(obj1);
+  const obj2Props = Object.getOwnPropertyNames(obj2);
+  
+  return (
+    obj1Props.length === obj2Props.length && // 属性长度
+    prototypesAreEqual &&  // 原型比较
+    obj1Props.every(prop => isDeepEqual(obj1[prop], obj2[prop])) // 属性值比较
+  )
+}
+```
+
+很高兴听到：
+- 像字符串、数字这样的原始值类型比较的是它们的字面量值。
+- 相反，对象则通过比较它们的引用值（在内存中的地址）。
+
+### 什么是 CORS？<sup style="color: green;">INTERMEDIATE</sup>
+
+`Cross-Origin Resource Sharing`(跨域资源共享) 或 CORS 是一种机制，它使用额外的 HTTP 头部授予浏览器权限访问来自与 Web 应用不同域的服务器上的资源。
+
+一个跨域请求的例子是一个 web 应用的地址是 `http://mydomain.com`，然后使用 ajax 技术向 `http://yourdomain.com`请求数据。
+
+因为安全的原因，浏览器限制由 JavaScript 发起的跨域 HTTP 请求。`XMLHttpRequest` 和 `fetch` 遵循同源策略，这意味着一个 web
+应用使用这些 API 只能从相同的域的可被访问的应用请求 HTTP 资源。
+
+很高兴听到：
+- CORS 行为不是一个 bug，它是一个安全机制来保护用户的信息。
+- CORS 被设计用来在用户无意中从请求的合法网站到访问恶意网站时，阻止恶意网站去窃取用户的个信息或者是做一些违背用户的意愿的操作。
+
+## DOM 是什么 ？
+
+DOM（Document Object Model）是一个跨平台的 API，它可以把 HTML 和 XML 文档处理成一颗由节点组成的树。这些节点（如元素和文本节点）都是对象，可以被编程式地操作以及任何对于它们的视觉上的改变都会生动映射到文档中。在浏览中，这个 API 可以被 JavaScript 访问，可以使用 JavaScript 操作 DOM 节点的样式、内容、文档中的位置，或者是通过事件监听器进行交互。
+
+很高兴能听到：
+- DOM 被设计为独立于任何特定的编程语言，这样使得文档的结构性代表可以提供一个单一、一致的 API 访问。
+- 随着页面的加载，DOM 在浏览器中是逐渐地被构建出来的，这也是为什么要把脚本`script` 标签放到页面的底部、带有 `defer` 属性的 `<head>` 标签，或者放进 `DOMContentLoaded` 回调函数中避免出错。操作 DOM 的脚本应该在相关的 DOM 节点被构建出来才运行避免报错。
+- `domcument.getElementById()` 和 `document.querySelector()` 是常见的选择 DOM 节点的函数。
+- 通过给一个节点的 `innerHTML`属性设置一个新值及HTML 解析器运行字符串，提供了一种很简便的方式来添加动态的HTML内容进一个节点。
+
+## 什么是事件委托以及为什么它是有用的？你可以通过一个例子来说明怎么用吗？
+
+事件委托是一种技术，委托事件到一个共同的祖先元素。由于事件冒泡，
+
+
+## 参考资料
+
+- [壹题汇总](https://muyiy.cn/question/)
+- 《CSS 世界》

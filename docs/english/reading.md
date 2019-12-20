@@ -2,6 +2,10 @@
 
 ## 句型框架
 
+### stand for
+
+忍耐、忍受；主张；拥护
+
 ### rather than
 
 But in some cases the web application may want to handle the download part itself, <u>rather than leaving it to the browser.</u>
@@ -55,10 +59,28 @@ Components may be expensive to create.
 1. Create a functionn batches that returns the maximum number of whole batches that can be cooked from a recipe.
 2. The number of students is increasing.
 
+### be usually scheduled for 
+
 ### number
 
 - a number of people/times 一些人
 - a large number of 大量的...
+
+### is available to
+
+## On 和 Upon 的用法及其固定短语的分类
+
+### 介词 on 作 “在......上面、在（某人）身上“或”朝向......“讲
+
+这种用法十分广泛，只要合乎逻辑，一般都可用这种 on 短语。例如：
+
+1. What is the purpose of the `alt` attribute on images？
+2. There is a book on the desk. 书桌上有一本书。
+3. lay the blame on sb.归咎于某人（身上）
+
+【注】下列句子都是“have...on sb.” 结构，其中 on sb. 均作“在某人身上”讲。
+1. Have another cup of coffee on me. 再来一杯咖啡，由我支付。
+2. If you show up again，I will have the police on you. 如果你再露面，我会让警跟踪你。
 
 ## as 的主要用法和判别
 
@@ -82,12 +104,39 @@ II. 由 as 引出另一种形式的主语补语
 1. I have come here as a manager. 我以经理的身份来到这里。
 2. What is the purpose of callback function as an argument of setState ？
 
+## At 的基本含义及其搭配用法
+
+### at 用于表示地点的一个点
+
+at Beijing Hotel 在北京饭店；at Tianjin University 在天津大学；at the office 在办公室；at London Airport 在伦敦机场。
+
+【注1】除了 at London Airport 以外，上述其余举例中都可用介词 <strong>in</strong> 代替 <strong>at</strong>。只是用 <strong>in</strong> 时，侧重表示在某一封闭的范围内。
+【注2】到达大城市上海用 arrive **in** Shanghai，而到达小地方廊坊镇则用 arrive at Langfang。其理由是把小城镇看成点。
+【注3】如果 at 后接某人姓的所有格或某种行业人员的所有格，就可表示某人的住处或某种行业的店铺。例如：**at** his uncle's 在他叔叔家；at the grocer's 在食品杂货店。
+
 ## But 及其搭配关系的用法和判断
 
 ### but 作“但是”讲，连接两个并列成分或两个并列句子
 
 1. Theory is something but practice is everything. 理论固然重要，但实践尤其重要。
 2. Callback functions are invoked later by a piece of code but can be declared on initialzation without being invoked.
+
+## For 的用法及其短语分类理解
+
+### for... 表示“为了......”之意时的动词短语举例
+
+1. act for sb. 为某人办事或代理某人办事
+2. provide for . ... 为（考试）作准备 
+
+## From 的搭配用法及其短语分类理解
+
+### from 与有关动词搭配，表示“来源”时的用法举例
+
+visit some professors from Europe 访问来自欧洲的几位教授；get（或obtain）some information from sb. 从某人那里得到一些信息；
+
+1. Cross-Origin Resource Sharing or CORS is a mechanism that uses additional HTTP headers to grant a browser permission to access resources <u>from a server </u>at an origin diffrent <u>from the website origin.</u>
+
+## Like 的搭配用法
 
 ## In 和 Into 的用法及其短语分类理解
 
@@ -98,6 +147,16 @@ II. 由 as 引出另一种形式的主语补语
 **in** the street 在街上；**in** here 在这里
 
 - Components can initiate side effects <u>in lifecycle methods.</u>
+
+#### 介词 in 表示 “在......中”，“在......方面” 时与动词搭配用法举例
+
+- be interested in ... 对（英语、音乐等）感兴趣；
+- be wrong in theory（某人、某事）在理论上是错的；
+- find...in the book（她）在这本书中找到或发现（某物）；
+- make progress in many respects （或 ways ）在许多方面取得进步
+
+1. How do you compare two objects <u>in JavaScript</u>?
+
 
 ## With 的各种搭配用法及分类理解
 
@@ -121,7 +180,6 @@ A pending promise can either be fulfilled with a value，or rejected with a reas
 
 2. A stateless component is a component <u>whose behavior does not depend on its state.</u>
 
-
 ## When 的用法和判别
 
 ### When 引导时间状语从句
@@ -142,6 +200,14 @@ When water becomes solid, we call it ice. 当水变成固体时，我们把它�
 有些实验是难的，而其他一些实验是容易的。
 3. It accepts two objects as argument: the first object is recipe for the food, <u>while the second object is the available ingredients.</u>
 【注】while 引出的并列分句在后面时，while 前一般打逗号，但也有不打逗号的，如上面第二句。
+
+## Which 的用法和判断
+
+### which 作关系代词用，专指事物而言。
+
+#### which 用于限制性定语从句中：
+
+1. The door of which you lost the key cannot be opened. 你丢失钥匙的那扇门开不了。
 
 ## 简单词的多种用法
 
@@ -196,5 +262,10 @@ adj. 等价的；同等的；同意义的
 to be equivalent to sth. 相当于某事物
 
 1. Create a standalone function `bind` that is functionally equivalent to the method `Function.prototype.bind.`
+
+### common
+
+adj. 常见的；通常的；普遍的；共有的
+n. 公共用地；公地；（学校、大学等的）学生公共食堂
 
 ## 参考阅读

@@ -1,5 +1,7 @@
 # 翻译技巧
 
+翻译一个句子时，先划分它的句子成分，再按照译文习惯进行适当调整。
+
 ## 语义翻译
 
 ### 一、理解种的选义
@@ -51,6 +53,17 @@
 
 1. Since time has such different meaning <u>in different cultures</u>, communication if often difficult.
 因为时间对于<u>不同文化背景的人</u>有如此多的不同的意义，相互间的交流常常会很困难。
+
+### 省词译法
+
+所谓省词译法，<u>就是把原文中需要而译文中不需要的单词、词组等在翻译过程中加以省略。</u>这种省词译法一般是处于译文语法和习惯表达法的需要。从一定的意义上来讲，增词译法中的规律反过来就是省词译法的规律。请看下面的例子。
+
+1. He is not well today, but he still comes to class. 他今天身体不好，但（他）还是来上课了。
+2. If I learn to drive a motorcycle, I will certainly buy a new one. 我要是学摩托车的话，（我）就一定买一辆新的。
+
+省略
+- 关系代词
+- 量词
 
 ## 句法翻译
 
