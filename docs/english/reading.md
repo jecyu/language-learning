@@ -2,6 +2,12 @@
 
 ## 句型框架
 
+### cut down on
+
+削减，减少
+
+1. Their terse syntax for nested selectors <u>cuts down on</u> repeated code.
+
 ### as though 
 
 虽然，尽管，好像
@@ -125,6 +131,8 @@ at Beijing Hotel 在北京饭店；at Tianjin University 在天津大学；at th
 1. Theory is something but practice is everything. 理论固然重要，但实践尤其重要。
 2. Callback functions are invoked later by a piece of code but can be declared on initialzation without being invoked.
 
+### but（介词）作“除了......以外”讲
+
 ## For 的用法及其短语分类理解
 
 ### for... 表示“为了......”之意时的动词短语举例
@@ -163,9 +171,29 @@ visit some professors from Europe 访问来自欧洲的几位教授；get（或o
 
 ## To 的搭配用法及其分类理解
 
+### 介词 to 的短语和有关动词搭配时表示目的、原因和结果的用法举例
+
+1. They have never one-sidely emphasized one to the denial of the other. 他们从未片面地强调一方面而导致否定另一方面。
+2. n + to do sth（后置定语）
+
+They gives the  developer more power to generate complex CSS. 它们为开发人员提供了生成复杂 CSS 的更多能力。
+
 ### 五、介词 to 和有关动词搭配时作 “对......” 或 “向......” 讲举例
 
 appeal to... 向（法院即 the court），诉诸（法律即 the law 或武力即 force）
+
+## What 的用法和判别
+
+### 一、what 作“什么”、“什么东西（或）事情”、“怎样的人（指职业）”等讲
+
+1. What is on the plate? 盘子上放着什么东西？
+2. What happened to him？他发生了什么事？
+3. What is she, a nurse or a teacher? 她是干什么的，是护士还是教师？（不能用 which 代替。）
+4. Which is your teacher, she or he? 哪一个是你的老师，是她还是他？（不能用 what 代替，因为本句不是提问她的职业是什么。）
+
+### 二、what 作 “什么的”、“什么样的” 讲，后面直接接名词单复数均可
+
+What computers have you ever used? 你使用过什么样的计算机？
 
 ## With 的各种搭配用法及分类理解
 
@@ -217,6 +245,16 @@ When water becomes solid, we call it ice. 当水变成固体时，我们把它�
 #### which 用于限制性定语从句中：
 
 1. The door of which you lost the key cannot be opened. 你丢失钥匙的那扇门开不了。
+
+## 动词时态
+
+### 一般现在时
+
+一般现在时表示经常发生的动作或存在的状态（如习惯、客观事实和普遍真理等）。
+
+The earth revolves around the sun. 地球围着太阳转。
+
+【注】当主句为现在或将来时态时，则从句就按实际句意可使用各种相应时态。
 
 ## 简单词的多种用法
 

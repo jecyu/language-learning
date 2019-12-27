@@ -4,7 +4,7 @@
 
 ## HTML 
 
-### img 图片标签上 的`alt` 属性的作用是什么？
+### img 图片标签上 的`alt` 属性的作用是什么？<sup style="color: green;">Easy</sup>
 
 如果用户无法查看图像时，则`alt` 属性提供图像的替代信息。
 <!-- 则`alt` 属性给图片提供了一个可选的信息。 -->`alt` 属性应该用来描述除了那些仅用于装饰目的图像之外的任何图像
@@ -15,9 +15,25 @@
 - Web 爬虫使用`alt` 标签来理解图像内容，所以它们被认为对搜索引擎（SEO）优化很重要。
 - 把 `.` 放在 `alt` 标签末尾来提供网站的可访问性。
 
+### 缓存清除的目的是什么，如何实现？<sup style="color: green;">Easy</sup>
+
+<!-- 浏览器会临时缓存网站文件，因此在切换页面或者重新加载页面时不再需要下载这些文件。 -->浏览器具有用于将网站文件临时存储的缓存，因此在页面切换之间相同的页面时不需要重新下载。
+服务器通过设置发送响应头告诉浏览在给予的时间内存储文件。这大大提升了网站的速度和保留了带宽。
+
+然而，当开发者已经更改网站内容时，它可能会导致问题，因为用户的缓存仍然引用旧的文件。如果缓存的 CSS 和 JavaScript 文件引用的元素已经不存在、已经移动或者重命名，则会使它们保留旧的功能或者破坏网站。
+
+清除缓存是一种强制浏览器下载新文件的过程。这是通过将文件命名为与旧文件不同的名字来实现的。
+
+<!-- 强制浏览器重新下载文件的一种技术是添加一个查询字符串到文件的末尾。 -->
+强制浏览器重新下载文件的一种技术在文件的末尾附加一个查询字符串。
+
+- `src="js/script.js"` => `scr="js/script.js?v=2"`
+
+这样浏览器认为它是不同的文件，但不需要更改文件名。
+
 ## CSS
 
-### CSS BEM 是什么？
+### CSS BEM 是什么？<sup style="color: green;">Easy</sup>
 
 BEM 方法是 一种 CSS 类的命名约定，旨在通过定义命名空间解决作用域问题来使 CSS代码 更具可维护性。BEM 主张块级元素修饰符，这是对自身结构的解释。
 <!-- （省略量词一个） -->
@@ -66,6 +82,17 @@ BEM 方法是 一种 CSS 类的命名约定，旨在通过定义命名空间解�
 - 替代的解决作用域问题的方案类似 CSS-in-JS，[awesome-css-in-js](https://github.com/tuchk4/awesome-css-in-js/blob/master/README-ZH_CN.md)
 - 其他的方案（Vue的 scoped css）、css modules
 - 扩展：[css 命名：BEM, scoped css, css modules 与 css-in-js](https://juejin.im/post/5c25de5f6fb9a04a053fbf53)
+
+### 使用 CSS 预处理器的优点是什么？<sup style="color: green;">Easy</sup>
+
+CSS 预处理器添加了原生 CSS 不具有的实用功能，并且总体上通过 DRY（不要重复你自己）原则让 CSS 代码更加整洁和更具可维护性。
+<!-- 它们具有简单的语法用于在重复的代码上切割选择器。 -->它们对于嵌套选择器的简洁减少了重复代码。
+它们为实现一致的主题（然而，CSS 变量已经很大程度上取代了这个功能）提供了变量和额外的工具如颜色函数（`lighten`， `darken`，`transparenntize`，等等）、mixins，loop等其他工具，这些工具让CSS更像是一种真正的编程语言，并为开发人员提供了生成复杂 CSS 的更多能力。
+<!-- 以及让 CSS 更加像一个真正的编程式语言的循环，也给予开发者更多的能力去生成复杂的 CSS 代码。 -->
+
+面试官想听到的：
+- 它们允许我们写出更具可维护性和可扩展性的 CSS 代码。
+- 使用 CSS 处理器的一些缺点（配置，重新编译的时间可能会变慢，等等）。
 
 ## JavaScript
 
@@ -133,7 +160,6 @@ let i = 0
 
 <!-- 一个 `pending` 的 promise 可以被实现返回一个值，或者是被拒绝返回一个原因（错误）。当这些选择之一发生后，相关的处理程序会被这个 promise 的 then 方法依次调用。 -->
 一个`pending`状态的 Promise 结果可以是完成附带一个值，或者是拒绝附带一个原因（错误）。当这些选择之一发生后，相关的处理程序会被这个 Promise 的 then 方法依次调用。 
-
 
 ### 在 React 中，什么是一个有状态的组件？<sup style="color: green;">Easy</sup>
 
@@ -397,6 +423,9 @@ document.addEventListener("click", e => {
 
 面试官想要听到的：
 - 事件冒泡和事件捕获的区别。
+
+## What is the difference between an expression and a statement in JavaScript?<sup style="color: yellow;">INTERMEDIATE</sup>
+
 
 ## 参考资料
 
