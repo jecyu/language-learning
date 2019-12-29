@@ -92,11 +92,36 @@ Components may be expensive to create.
 1. Have another cup of coffee on me. 再来一杯咖啡，由我支付。
 2. If you show up again，I will have the police on you. 如果你再露面，我会让警跟踪你。
 
+## And 用法中几个值得注意的问题
+
+### 一、and 连接两个动词，有时后面动词的行为是前面动词的行为对象或目的，译成汉语可以连着翻译。但有时 and 前面的部分用来表示条件
+
+1. Try and do it again. 再做做看。（行为对象）
+
+### and 所连接的并列关系及判别
+
+1. It is impossible to live in society **and** be independent of society. 生于社会，不能超乎（拖离）社会。（**and** 连接两个不定式。）
+
 ## as 的主要用法和判别
 
-### 用 as 引出宾语补语、主语补语
+### 五、用 as 引出宾语补语、主语补语
 
-#### as 引出的宾语补语有如下几种表示形式
+#### I. as 引出宾语补语的常用短语
+
+We regard the sun as the chief source of heat and light. 我们把太阳看成是主要的热源和光源。
+
+在科技文章里，常见的有下列一些“动词（或短语动词）+ 名词（或代词）+ as + 宾语补语”这样的结构：
+
+to accept...as 把......承认为，承认......是
+to define...as 把......解释为，对......下的定义是
+to consider...as 把......认为是
+to refer to...as 把......指为（叫做）
+to think of...as 把......看作
+to treat...as 把......当作；以......来对待......
+to describe...as 把......描述成
+to regard...as 把......看成
+
+#### II. as 引出的宾语补语有如下几种表示形式
 
 A. as + 名词
 
@@ -105,7 +130,7 @@ A. as + 名词
 2. Use `Object.keys()` to return the ingredients of the recipe <u>as an array.</u>
 使用`Object.keys()`以数组形式返回食谱的成分。（以... 形式返回，疑问）
 
-#### as 引出主语补语
+#### III. as 引出主语补语
 
 I. 由 as 引出另一种形式的主语补语
 
@@ -113,6 +138,10 @@ II. 由 as 引出另一种形式的主语补语
 
 1. I have come here as a manager. 我以经理的身份来到这里。
 2. What is the purpose of callback function as an argument of setState ？
+
+#### IV. 由 as 引出另一种形式的主语补语
+
+I have come here **as a manager.** 我以经理的身份来这里。
 
 ## At 的基本含义及其搭配用法
 
@@ -132,6 +161,13 @@ at Beijing Hotel 在北京饭店；at Tianjin University 在天津大学；at th
 2. Callback functions are invoked later by a piece of code but can be declared on initialzation without being invoked.
 
 ### but（介词）作“除了......以外”讲
+
+## Between 和 Among 的用法辩异
+
+### 一、between 和 among 都是介词，都作“之间”、“中间”讲，但前者用于“两者之间”，而后者用于“三者以上中间”
+
+1. He will come back between one and two o'clock. 他将于1点到2点之间回来。（状语）
+2. It is due to the free motion among the molecules. 这是由于分子中间的自由运动的缘故。（后置定语）
 
 ## For 的用法及其短语分类理解
 

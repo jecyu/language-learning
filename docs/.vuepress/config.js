@@ -46,7 +46,7 @@ module.exports = {
         {
           title: "翻译练习",
           collapsable: false,
-          children: [""]
+          children: ["", "skill"]
         }
       ]
     },
