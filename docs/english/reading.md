@@ -162,12 +162,26 @@ at Beijing Hotel 在北京饭店；at Tianjin University 在天津大学；at th
 
 ### but（介词）作“除了......以外”讲
 
+### 九、“not only...but（also）...” 作 “不仅......而且......” 讲
+
+**Not only** China，**but** all the world feels this loss. 不仅中国，而且全世界都感到这种损失。（not only 和 but 连接两个并列的主语。虽然 not only 位于句首，但后面主、谓语不必颠倒。）
+
+【注】注意 not only 和 but 后连接的成分必须是并列的同等成分。当 not only 位于句首并不直接说明主语时，句中主、谓语要采用疑问句格式的颠倒。
+
 ## Between 和 Among 的用法辩异
 
 ### 一、between 和 among 都是介词，都作“之间”、“中间”讲，但前者用于“两者之间”，而后者用于“三者以上中间”
 
 1. He will come back between one and two o'clock. 他将于1点到2点之间回来。（状语）
 2. It is due to the free motion among the molecules. 这是由于分子中间的自由运动的缘故。（后置定语）
+
+## Either 和 Either...or 的用法
+
+### 四、连接词 either...or 作 “或...或”、“是......还是......”、“不是......就是”讲
+
+1. **Either** come in **or** go out. 或者进来，或者出去。
+2. Do you speak **either** English **or** French？你说英语还是法语？
+3. **Either** he is right **or** I am. 或是他对，或者我对。
 
 ## For 的用法及其短语分类理解
 
@@ -183,6 +197,15 @@ at Beijing Hotel 在北京饭店；at Tianjin University 在天津大学；at th
 visit some professors from Europe 访问来自欧洲的几位教授；get（或obtain）some information from sb. 从某人那里得到一些信息；
 
 1. Cross-Origin Resource Sharing or CORS is a mechanism that uses additional HTTP headers to grant a browser permission to access resources <u>from a server </u>at an origin diffrent <u>from the website origin.</u>
+
+## How，How many，How much，How long，How far，How fast，How often 等用法
+
+### 二、构成主语从句、宾语从句、表语从句和同位语从句，但从句内主、谓语词序不颠倒。
+
+1. It is clearly known **how they learn English**. 他们如何学英语是清楚知道的。（主语从句，it 是形式主语）
+2. The question is **how much one cubic meter of air weights under normal conditions**. 问题是在标准情况下，一立方米空气重多少。（表语从句，试与上面第2句比较主、谓语词序）。
+3. I didn't know **how many English words you had learned for two years**. 当时我不知你们两年学了多少英语单词。（宾语从句）
+4. He answer the question **how volume is affected by temperature**. 他回答了温度如何影响体积这个问题。（the question 的同位语从句）。
 
 ## Like 的搭配用法
 

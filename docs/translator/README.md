@@ -32,6 +32,14 @@
 
 这样浏览器认为它是不同的文件，但不需要更改文件名。
 
+### 一个 web 页面可以包含多个 `<header>` 元素吗？那`<footer>`元素呢？
+
+两者都可以。W3 文档声明了这些标签代表了它们最靠近的祖先元素“section”的页眉（`<header>`）和页脚(`<footer>`)区域。因此，不仅页面`<body>`标签可以包含一个头部和脚部，而且每个`<article>`和`<section>`元素也可以包含它们。
+
+面试官想听到的
+- W3 建议拥有你想要的一样多，但是你的页面中每一个“section”元素仅有一个。body，section 等也是只有一个。
+- 具体实现，可以看 iview 的 layout 组件实现。
+
 ## CSS
 
 ### CSS BEM 是什么？<sup style="color: green;">Easy</sup>
@@ -94,6 +102,38 @@ CSS 预处理器添加了原生 CSS 不具有的实用功能，并且总体上�
 面试官想听到的：
 - 它们允许我们写出更具可维护性和可扩展性的 CSS 代码。
 - 使用 CSS 处理器的一些缺点（配置，重新编译的时间可能会变慢，等等）。
+
+### 使用 flexbox 创建一个3列布局，每列占用容器的比例为`col{n} - 12` 。<sup style="color: green;">Easy</sup>
+
+```html
+<div class="row">
+  <div class="col-2"></div>
+  <div class="col-7"></div>
+  <div class="col-3"></div>
+</div>
+```
+
+给 `.row` 父级设置 `display: flex;`，然后使用 `flex` 缩写属性为每列的类提供与其对应比例的 `flex-grow`值。
+
+```css
+.row {
+  display: flex;
+}
+
+.col-2 {
+  flex: 2;
+}
+
+.col-7 {
+  flex: 7;
+}
+
+.col-3 {
+  flex: 3;
+}
+```
+
+另外也可以看下 iview 的 grid 源码实现，它采用的是 float + width 百分比实现。
 
 ## JavaScript
 
@@ -491,6 +531,45 @@ var x = y >= 0? y : -y
 #### 面试官想听到
 
 - 函数声明 vs 函数表达式。具体看这篇文[关于Javascript的函数声明和函数表达式](https://github.com/Wscats/articles/issues/73)
+
+### JavaScript 中的真值与假值是什么？<sup style="color: green;">INTERMEDIATE</sup>
+
+
+一个值是真值还是假值，
+<!-- 依赖于在一个布尔的上下文中是怎样评估它的。 -->具体取决于它在布尔上下文中如何对其求值。
+假值意味着类假值，而真值意味着类真值。
+<!-- 本质上，当执行特定的操作时，这些值会被强制转换真值或假值。 -->本质上，它们是在执行某些操作时被强制转为真值或假值。
+
+在 JavaScript 中有6种假值。它们是：
+
+- false 
+- undefined
+- null
+- ""（空字符串）
+- NaN
+- 0（包括 +0 和 -0）
+
+<!-- 除此之外其他的每个值都是真值。 -->
+其他所有值都是真值。
+
+一个值的真假可以通过把它传递给 `Boolean` 函数进行检查。
+
+```js
+Boolean("") // false
+Boolean([]) // true
+```
+
+对于这个检查有一个捷径就是使用非 `!` 操作符。使用 `!` 转换一个值为相反的布尔值（非假即真），然后再转一次将它的布尔值转回来。这样就可以有效地转换一个值为布尔值类型。
+
+```js
+!!"" // false
+!![] // true
+```
+
+真假值的作用在于，我们经常会判断数据的存在与否来进行下一步的操作。
+```js
+if (!xxx) return
+```
 
 ## 参考资料
 
