@@ -1,6 +1,14 @@
 # 30 秒面试
 
-> 原文来自：[https://30secondsofinterviews.org/](https://30secondsofinterviews.org/)、
+> 原文地址：：[https://30secondsofinterviews.org/](https://30secondsofinterviews.org/)
+> 
+> 原文作者：30-seconds
+> 
+> 译文出自：Jecyu 翻译计划
+> 
+> 译者：Jecyu
+> 
+> 校对者：
 
 ## HTML 
 
@@ -39,6 +47,17 @@
 面试官想听到的
 - W3 建议拥有你想要的一样多，但是你的页面中每一个“section”元素仅有一个。body，section 等也是只有一个。
 - 具体实现，可以看 iview 的 layout 组件实现。
+
+### 简要描述以下 HTML5 语义化标签的正确用法：`<header>`，`<article>`，`<section>`，`<footer>`。
+
+- `<header>` 标签用来包含有关页面部分的介绍和导航信息。这可以包括部分标题、作者名字、发布时间和日期、内容大纲以及其他的导航的信息。
+<!--  <arcticle> 意味着 旨在拥有可以逻辑上独立于页面之外创建而不丢失意义的自包含的构成。好的例子如独立的博客帖子或者新闻故事。定义从句，可以拆分翻译的。如果句子过长，可以作为后面的补充，而不是死板翻译-->
+- `<arcticle>` 旨在容纳一个自包含的合成，该合成可以在逻辑上在页面外部独立地创建而不会失去它的意义。个别博客帖子或者新闻报道就是很好的例子。
+- `<section>` 是一个灵活的容器，它可以用来容纳共享通用的信息主题或目的的内容，
+- `<footer>` 用来保存应该放置到内容部分的结尾和有关该部分的其他特定信息。典型的例子如这样的内容：作者的名字、专利信息和相关的链接。
+
+- 面试官想听到的：
+- 其他的语义化标签如 `<form>`和 `<table>`
 
 ## CSS
 
@@ -134,6 +153,18 @@ CSS 预处理器添加了原生 CSS 不具有的实用功能，并且总体上�
 ```
 
 另外也可以看下 iview 的 grid 源码实现，它采用的是 float + width 百分比实现。
+
+### 你可以给 `@media` 属性的四种类型进行命名吗？
+
+- `all`，适用于所有的媒体类型的设备。
+- `print`，这只应用于打印机。
+- `screen`，这只应用于屏幕（台式机、平板电脑、手机等）。
+- `speech`，这只应用于屏幕阅读器。
+
+进一步阅读：
+- [PX, EM or REM Media Queries?](https://zellwk.com/blog/media-query-units/)
+- [@media](https://developer.mozilla.org/en-US/docs/Web/CSS/@media)
+
 
 ## JavaScript
 
@@ -363,6 +394,7 @@ const shallowClone = { ...obj }
 - 相同的方法可以用来合并两个对象。
 
 <!-- ### 你是怎么使用 JavaScript 比较两个对象是否相等？<sup style="color: green;">INTERMEDIATE</sup> -->
+
 ### 在 JavaScript 中你是怎么比较两个对象是否相等？<sup style="color: green;">INTERMEDIATE</sup>
 
 即使两个不同的对象具有相同的属性和值，当使用`==`或`===`时，它们也不能被认为相等。这是因为它们是通过引用地址（内存空间）来比较的，不像原始类型只是比较值的相等。
@@ -503,7 +535,6 @@ if (y >= 0) {
 <!-- 一个不能其他部分的代码不会输出的值。 （需要将被动语态转主动语态）-->
 代码的其他部分不会产生值。
 
-
 #### 表达式
 
 <!-- 表达式产生一个值。因为编译器使用它们决议后的值替代它们，所以可以被传递到函数中。 注意转被动到主动-->
@@ -570,6 +601,12 @@ Boolean([]) // true
 ```js
 if (!xxx) return
 ```
+
+### Generate an array, containing the Fibonacci sequence, up until the nth term.
+
+## Node
+
+## 安全（Security）
 
 ## 参考资料
 

@@ -1,106 +1,45 @@
 # 阅读篇
 
-## 句型框架
+## A（或An） 和 The 两种冠词的基本含义及其使用方法
 
-### cut down on
+### 一、冠词的基本含义
 
-削减，减少
+#### I. a, an 一个，其中 an 用于其后跟着的词或缩写词的第一个音是元音的条件下。
 
-1. Their terse syntax for nested selectors <u>cuts down on</u> repeated code.
+定冠词 **the** 表示特指的某一个或某一些，而不是任何一个或任何一些。现在我们介绍 **a** 和 **the** 的基本用法：
 
-### as though 
+There is **a** cloning technology laboratory here. **The** laboratory was set up last year. 这里又一个克隆技术实验室。该实验室是去年建成的。
 
-虽然，尽管，好像
+### 二、冠词的实用价值
 
-### stand for
+#### II. 用不用冠词，意义上有差别：
 
-忍耐、忍受；主张；拥护
+#### III. 利用“冠词后面一般要求有名词”来判断词类，以及某些其他句子成分。
 
-### rather than
+1. When matter **changes** to a substance different from what is was, **the change** is **a** chemical **change**. 当物质变成和原来不同的物质时，该变化是化学变化。（三个 change 中，后两个 change 前有冠词，意味着后两个准是名词。） 
 
-But in some cases the web application may want to handle the download part itself, <u>rather than leaving it to the browser.</u>
+## About, Around 和 Round 的用法分类及注意事项
 
-### from to
+### 介词 about 作 “关于” 或 ”涉及“、“从事” 讲，从本义”围绕“引申过来
 
-Tons of files get downloaded <u>from</u> the internet every day <u>ranging from binary files(like applications, images, videos, and audios) to</u> files in plain text.
-
-### do...using
-
-1. Get pixel color of Base64 PNG <u>using javascript </u>.
-2. Can you show an example using one?
-
-### What is the xxx between ... and ..
-
-What is the difference <u>between</u> the equality operators `==` <u>and</u> `===`?
-
-### ... means ...
-
-Triple equals (`===`) checks for strict equality, which <u>means</u> both the type and value must be the same.
-
-Type coercion <u>means</u> the values are converted into the same type.
-
-### ... be expensive/cheap to do ...
-
-Components may be expensive to create.
-
-### neither ... nor ...
-
-### be independent of
-
-### ...depend on ...
-
-### be used for
-
-用来做；被用来；被用于
-
-1. Since setState is asynchronous, the callback function is used for any post action.
-
-### ...one of the xxxx...
-
-其中之一，之一
-
-1. Then he made Conking even angrier by appointing <u>one of</u> Conking's political enemies Collector of Taxes for the port of New York.
-而后他有任命一位康克林的政敌负责纽约港的税收工作，此举更加激怒了康克林。
-
-### ...the ... number of ...
-
-...的数目，谓语动词用单数。
-
-1. Create a functionn batches that returns the maximum number of whole batches that can be cooked from a recipe.
-2. The number of students is increasing.
-
-### be usually scheduled for 
-
-### number
-
-- a number of people/times 一些人
-- a large number of 大量的...
-
-### is available to
-
-## On 和 Upon 的用法及其固定短语的分类
-
-### 介词 on 作 “在......上面、在（某人）身上“或”朝向......“讲
-
-这种用法十分广泛，只要合乎逻辑，一般都可用这种 on 短语。例如：
-
-1. What is the purpose of the `alt` attribute on images？
-2. There is a book on the desk. 书桌上有一本书。
-3. lay the blame on sb.归咎于某人（身上）
-
-【注】下列句子都是“have...on sb.” 结构，其中 on sb. 均作“在某人身上”讲。
-1. Have another cup of coffee on me. 再来一杯咖啡，由我支付。
-2. If you show up again，I will have the police on you. 如果你再露面，我会让警跟踪你。
+1. `<footer>` is used to hold information that should appear at the end of a section of content and contain additional information about the section.  `<footer>` 用来保存应该放置到内容部分的结尾和有关该部分的其他特定信息。
 
 ## And 用法中几个值得注意的问题
 
 ### 一、and 连接两个动词，有时后面动词的行为是前面动词的行为对象或目的，译成汉语可以连着翻译。但有时 and 前面的部分用来表示条件
 
-1. Try and do it again. 再做做看。（行为对象）
+1. Try and do it again. 再做做看。（行为对象） 
+2. Let us go **and** try it again. 让我们再去试试。（行为目的）
+3. Try again **and you** will succeed. 再试一次，你就会成功。（条件）
 
-### and 所连接的并列关系及判别
+【注】上述用法中第一个动词多半是如下的动词：come，go，try，stop，stay，wait，run，hurry up 等。
+
+### 二、and 所连接的并列关系及判别
 
 1. It is impossible to live in society **and** be independent of society. 生于社会，不能超乎（拖离）社会。（**and** 连接两个不定式。）
+2. Everywhere you can find new types of men **and** objects in the hometown.在故乡，新人新事比比皆是。（**and** 连接两个名词 men 和 objects。）
+3. Rubber gets warmer when stretch **and** cools when relaxed. 橡皮（被）拉伸时发热，而放松时变凉。（and 连接两个谓语 gets 和 cools）。
+
 
 ## as 的主要用法和判别
 
@@ -153,6 +92,17 @@ at Beijing Hotel 在北京饭店；at Tianjin University 在天津大学；at th
 【注2】到达大城市上海用 arrive **in** Shanghai，而到达小地方廊坊镇则用 arrive at Langfang。其理由是把小城镇看成点。
 【注3】如果 at 后接某人姓的所有格或某种行业人员的所有格，就可表示某人的住处或某种行业的店铺。例如：**at** his uncle's 在他叔叔家；at the grocer's 在食品杂货店。
 
+### 六、at 与动词连用时可表示动词作所对准的目标或目的物
+
+loot at 观看 ；glance at 一瞥；stare at 盯着看（某人、某物）；aim at 瞄准；point at 指着；fire （a gun）at 向......开火；shoot at 向......射击；go at sb. 向某人扑去；run at 向某人冲去；jump at（或 leap）at 跃向（某人），找某人岔子，欣然抓住（机会等）
+
+## Both 的用法及注意点
+
+### 一、形容词 both 作 “两个......都”讲
+
+1. **Both**（the）students have read a good few books. 这两个学生都读了不少书。
+
+
 ## But 及其搭配关系的用法和判断
 
 ### but 作“但是”讲，连接两个并列成分或两个并列句子
@@ -185,10 +135,17 @@ at Beijing Hotel 在北京饭店；at Tianjin University 在天津大学；at th
 
 ## For 的用法及其短语分类理解
 
+介词 for 的基本意思之一是“为了......”，在与不同的动词连用时可引申为“为了......目的”、“往某目的地”、“供或当作......用”等含义。当它和有关动词搭配时可引申为“找、搜索、搜索......”等或多种多样的“渴望......”意思。for...由可表示持续的时间或距离等。在不同上下文中 for 还有多种用法。只要抓住它几个基本用法，就不难领会英语本义。
+
+### 一、for... 表示走向的“目的地”时的动词短语汇总
+
 ### for... 表示“为了......”之意时的动词短语举例
 
 1. act for sb. 为某人办事或代理某人办事
 2. provide for . ... 为（考试）作准备 
+3. There's a letter for you. 有你一封信 for 也有从属于（的）翻译
+
+### 十三、用介词 for 引出后面不定式或其短语的逻辑主体
 
 ## From 的搭配用法及其短语分类理解
 
@@ -228,6 +185,57 @@ visit some professors from Europe 访问来自欧洲的几位教授；get（或o
 
 1. How do you compare two objects <u>in JavaScript</u>?
 
+## On 和 Upon 的用法及其固定短语的分类
+
+on （介词）作“在......上”讲。但其用法远远不限于此。加上 on 还兼作副词用，其用法也有许多种。再加上 upon 有时可代替介词 on。此外，on 与各种有关动词连用时还体现在 on 的丰富多彩的功能性用法。
+
+现按 on 作介词的用法（见第一项到第十三项）和作副词的用法（见第十四项到第十七项）及“on to”和 onto 的用法异同与“on和 upon 用法比较”进行分类阐述。
+
+### 介词 on 作 “在......上面、在（某人）身上“或”朝向......“讲
+
+这种用法十分广泛，只要合乎逻辑，一般都可用这种 on 短语。例如：
+
+1. What is the purpose of the `alt` attribute on images？
+2. There is a book on the desk. 书桌上有一本书。
+3. lay the blame on sb.归咎于某人（身上）
+
+【注】下列句子都是“have...on sb.” 结构，其中 on sb. 均作“在某人身上”讲。
+1. Have another cup of coffee on me. 再来一杯咖啡，由我支付。
+2. If you show up again，I will have the police on you. 如果你再露面，我会让警跟踪你。
+
+## So that 和 So（或 Such）...that 引导从句的用法和判别
+
+### 一、so that 引导目的从句或结果从句。前者译为“为了”、“以便”；后者译为“以至于”、“使得”、“因此”
+
+1. Please speak slowly **so that we can take everything down.** 请慢慢讲，以便我们能把一切内容都记下来。（目的）
+2. All these problems are hard enough, **so that he cannot solve all of them.** 所有这些问题都够难的，所以他不能全部解决（结果）
+
+目的从句内，谓语动词一般和 may，can，should 等情态动词连用。<u>这可以作为在结构形式上进行判别的一种标志。</u>用 so that 引导的目的从句中，有时 “so that” 中的 “so” 省略，而在用“so that” 引导的结果从句里，有时可以省略“that”。
+
+例如：
+
+3. We went early, **so (that) we fulfilled our task on time.** 我们去得早，所以准时完成了任务。（结果）
+
+【注】<u>so that 引导结果状语从句时</u> ，常可用 with the result that 代替。例如：
+
+He worked hard, **so that (或 with the result that) his work was finished in time**. 他努力工作，所以工作按时完毕。
+
+### 二、so（或 such）...that 引导结果从句作“这么......，以致”或“所以”解。在 so 后是形容词、副词或分词，而在 such 是名词。
+
+The temperature in the sun is **so high that** nothing can exist in the solid state. 太阳内的温度是如此之高，以致没有东西能以固态存在。
+
+### 三、判别时几个值得注意的问题
+
+1. 凡是用 so that 或 so（或 such）...that 引导的目的或结果状语从句，that 在从句中不可能作宾语和主语，这也是和由关系代词 that 引导的定语从句的重要区别。例如：
+
+Oxygen is **so** important to life **that** we cannot live without it. 氧气对生命如此重要，以至于没有它，我们就活不了。（结果从句，that 不说明 life。）
+
+2. 一般来说，so 和 that 分开的复合句，that 引出结果状语从句就居多。可观察本文列举的例句。
+3. so that 引出的从句内出现情态动词，则大多数是目的状语从句。详见本文有关例句。
+4. 最后必须从意义上是否合乎逻辑来进行核查。对于上述 A 和 B 两种情况来说，都要用逻辑判断作为最后核查。只有这样，才能查处例外情况。例如：
+
+It was raining, so that we couldn't go out. 当时正下着雨，所以我们没能出去。（结果状语从句，尽管从句内出现情态动词 couldn't）。
+
 ## To 的搭配用法及其分类理解
 
 ### 介词 to 的短语和有关动词搭配时表示目的、原因和结果的用法举例
@@ -240,6 +248,13 @@ They gives the  developer more power to generate complex CSS. 它们为开发人
 ### 五、介词 to 和有关动词搭配时作 “对......” 或 “向......” 讲举例
 
 appeal to... 向（法院即 the court），诉诸（法律即 the law 或武力即 force）
+
+## “Used + 带 to 的不定式”表示过去习惯性动作或状态
+
+### 一、“used + 带 to 的不定式” 表示过去习惯性动作或状态
+
+1. Did Joe really **use to be** your friend？过去乔确实是你的朋友吗？（过去的状态。也可写成：Used Joe really to be...?）
+2. He never **used to** swim in winter，**did** he？他过去冬天从不游泳，对吗？（过去习惯性动作。只是否定式的反意疑问句。）
 
 ## What 的用法和判别
 
@@ -256,6 +271,15 @@ What computers have you ever used? 你使用过什么样的计算机？
 
 ## With 的各种搭配用法及分类理解
 
+介词 with 的基本词义为“同、跟或和......（一起）”、“具有、带有、伴有或陪衬......”、“以或用......（后接表示工具、实物等词）”、“以......方式”等。至于其他用法，例如“与......相处”、“同意、赞成、一致、符合......”、“与......联系”、“连接、结合、化合、混合、合作、勾结”、“与......争论、竞争、斗争”、“随身......”、“随着......”、“对于或关于......”、“由于或为了......目的”、“虽然”等意思，都是 with 短语跟有关动词搭配在一定的上下文前提下引申的用法。
+
+### 一、“with + 有关名词” 跟不少动词及其相应的名词连用可分别表示“同或跟......闲聊、交谈、谈判、讨论等”或“与......一起工作、居住或一起走等”
+
+- chat **with** sb. 跟某人闲聊；
+- have a long chat **with** sb. 跟某人进行一次长时间闲聊；
+- discuss **with** sb. 跟某人讨论；
+- hold （或 have）a heated discussion **with** sb. 和某人举行（或进行）一次热烈的讨论；
+
 ### “有关动词+with...”作“随身有、随身携带、拥有、设有、备有、伴有、染有、患有”等讲时的用法举例
 
 Get away with yours son. 带着你的儿子走。
@@ -266,6 +290,11 @@ A pending promise can either be fulfilled with a value，or rejected with a reas
 1. **With** the temperature being constant, the volume changes **with** the pressure.
 当温度保持恒定不变时，体积随压强而变。
 2. **With** this technique, prototypes are ignored.
+
+### 十一、with 短语在有关名词后作后置定语，用以表示某些特征、附带的情况或作“连同在一起”讲
+
+1. Have you ever seen annboby **with** this name? 你可曾见过叫这个名字的人吗？
+2. He is a senior enginner **with** forty years of experience. 他是位有 40 年经验的高级工程师。
 
 ## Whose 的用法
 
@@ -299,11 +328,35 @@ When water becomes solid, we call it ice. 当水变成固体时，我们把它�
 
 ## Which 的用法和判断
 
-### which 作关系代词用，专指事物而言。
+### 一、which 的基本用法
 
-#### which 用于限制性定语从句中：
+#### which 作关系代词用，专指事物而言。
+
+#### III. which 作关系代词用，专指事物而言。
+
+##### A. which 用于限制性定语从句中：
 
 1. The door of which you lost the key cannot be opened. 你丢失钥匙的那扇门开不了。
+2. He will become the man **which his parents want him to be**. 他将成为家长所期望的那种人。
+
+【注】which 用于定语从句中一般指物。但当 which 在定语从句内作表语或宾语补语时，也可指人。如上面第 2 句和下面 B 项第 2句即是，不宜用 who 或 whom 代替。
+
+3. Neither rain nor show nor sleet keeps the postman from delivering our letters which we so munch look forward to receiving. 雨、雪、冰雹都没使邮递员中断投递我们迫切盼望收到的信件。
+
+##### B. which 用于非限制性定语从句中，这时 which 前有逗号。
+
+（a）which 代替主句中某个词或词组，并对它进行补充说明。
+1. The meeting, which was held at our university, was a success. 那个会是在我校开的，获得了成功。
+
+试比较下列限制性定语从句：
+
+The sports-meeting which was held at our university was a success. 那次在我校开的运动会获得了成功。
+
+## Or，Or Else，Else 的用法
+
+### 五、“...or...” 作“不论......”讲，表示让步意义
+
+**Yes or no**, you must answer this question. 不论是与否，你总得回答这个问题。
 
 ## 动词时态
 
@@ -315,64 +368,72 @@ The earth revolves around the sun. 地球围着太阳转。
 
 【注】当主句为现在或将来时态时，则从句就按实际句意可使用各种相应时态。
 
-## 简单词的多种用法
+## 同位语及同位语从句的表示法和判别
 
-### take
+在某一句子成分后面有另外的词、短语或从句（同位语从句）对该成分作进一步说明，在语法上又处于同一地位（即作同一个成分），称为同位语。
 
-### run
+### 二、同位语前后有逗号、冒号或破折号
 
-### pure
+1. Henry is there, **near the window**. 亨利在那边，在窗户附近。
+2. Agnes will visit two cities: **Beijing and Shanghai**. 阿格妮丝将访问两个城市：北京和上海。
 
-## 生词
+### 用 namely ，for example，including，particularly，that is（或 i. e.）等引出同位语
 
-### mutate
+1. We have only one way of solving the difficulty, **namely, to rely on our own efforts.**
+2. Many of us, **including Lin Hua**, have been to Beijing zoo.我们中间有许多人，包括林华在内，都去过背景动物园。
 
+## 句子的种类
 
-## 高频词汇
+### 二、按句子结构来分，有下列三种
 
-计算机相关文章
+#### I 简单句 
 
-### although
+只有一套主谓结构，但允许有并列主语、并列谓语。
 
-- 虽然，但是
-- 不过
+#### II 并列复合句
 
-### altogether
+含有两套或更多相互并列的主谓结构的句子，叫做并列复合句。换句话说，它是由两个或更多个并列的简单句构成的。各分句靠连词和逗号、分号来连接。
 
-- 完全
+1. Water has weight; air has weight too, **but** it is very light. 水有重量；空气也有重量，但空气很轻。
+2. He speaks very fast, **nevertheless** we understand him. 他说话很快，然而我们仍能听懂。
 
-1. I don't alogther agree with you.
+#### III 主从复合句
 
-### since
+含有两套或更多的主谓结构，其中有一个是主要的主谓结构，其他主谓结构从属于它并担任其句子成分。<u>这个主要的主谓结构为主句，其他附属于它的主谓结构为从属句，担任主句中某个成分，</u>如主语、表语、宾语、介词宾语、定语、同位语、状语（包括地点、条件、时间、原因、让步、比较、结果等状语）。从句担任哪个句子成分，这个从句就叫做该成分的从句，如主语从句、表语从句、宾语从句等即是。举例如下：
 
-conj. 因为；由于；既然；从...以后
-adv. 以后；后来；自...以后；从...以来
-prep. 自...以后；从...以来；（表示气愤）何曾
+1. It is certain **that he will come to the discussion**. 他来参加讨论是肯定无疑的。（主语从句，为形式主语。）
+2. Our conclusion is **that he must keep up with the times**.（表语从句）
 
-1. **Since** time has such different meaning in different cultures, communication if often difficult.
-**因为**时间对于不同文化背景的人有如此多的不同的意义，相互间的交流常常会很困难。
+## 句子成分
 
-### represent
+### 定语（包括定语从句）和几个注意点
 
-### interface
+定语表示形式：<u>修饰名词或代词的词、短语或从句，称为定语或定语从句。</u>定语一般可由<u>形容词、名词、代词、数词、名词所有格、不定式、动名词、现在分词、过去分词、介词短语、副词和从句等表示，</u>按定语的不同位置可分为<u>前置定语、后置定语、双层定语和分割定语、定语从句分限制性和非限制性地定语从句两种。</u>后者还可修饰前面整个主句。甚至目前已发展为由夹带介词短语的名词性词组作前置定语。
 
-- mutation
+#### I 前置定语
 
-#### available
+1. my father and mother's friend 我父母亲的朋友；
+2. TV shopping 电视购物；
+3. the multi-media application debate 多媒体应用方面的讨论；
+4. an ever-increasing number of people 越来越多的人。
 
-adj. 可获得的；可购得的；可找到的；有空的
+## 宾语补（足）语及注意点
 
-#### equivalent
+### 一、宾语补语特点
 
-n. 等值；同义词；当量；同期地层
-adj. 等价的；同等的；同意义的
-to be equivalent to sth. 相当于某事物
+英语中有些及物动词，除有一个直接宾语以外，还要有一个宾语补语，才能使句子的意义完整。这类常用的及物动词有：make（使），consider（认为），cause（引起、使得），see（看见），find（发现），call（称为、叫做），get（让、使得），have（让、使得），let（让），start（开始、使......开始）等。“宾语+宾语补语”就称为复合宾语。
 
-1. Create a standalone function `bind` that is functionally equivalent to the method `Function.prototype.bind.`
+1. Electricity can make a machine **run**. 电能使机器运转。
+2. We consider （或 think）the answer （**to be**）correct. 我们认为这个答案是正确的。
 
-### common
+## 省略（Ellipsis）
 
-adj. 常见的；通常的；普遍的；共有的
-n. 公共用地；公地；（学校、大学等的）学生公共食堂
+为了避免重复，句子中某些部分可以省略。兹分下列十二种情况。
+
+### 十五、在某些动词后含有宾语补语或主语补语的复合结构种省略 to be 或 being 的情况
+
+1. They found the answer (**to be**) correct. 他们发现答案正确。
+2. When it is warm, we often work with the windows (**being**) open. 当天气暖和时，我们常开着窗工作。（这里 being open 换序到前面翻译了。）
+3. A decade ago, nearly everyone was rendering their web applications on the server <u>using technologies like ASP.NET, Ruby on Rails, Java, and PHP.</u>十年前，几乎每个人都使用例如 ASP.NET、Rail 上的Ruby、Java 和 PHP 这样的技术在服务器上渲染他们的 web 应用。
 
 ## 参考阅读

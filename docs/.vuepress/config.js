@@ -15,7 +15,8 @@ module.exports = {
     nav: [
       { text: "英语", link: "/english/" },
       { text: "日语", link: "/japanese/" },
-      { text: "翻译练习", link: "/translator/" },
+      { text: "中文", link: "/chinese/" },
+      { text: "翻译练习", link: "/practicalTranslation/" },
       {
         text: "GitHub",
         link: "https://github/Jecyu/language-learning"
@@ -32,7 +33,7 @@ module.exports = {
         {
           title: "英语",
           collapsable: false,
-          children: ["reading", "", "listening",  "writing"]
+          children: ["reading", "translate", "", "listening",  "writing" ]
         }
       ],
       "/japanese/": [
@@ -42,11 +43,18 @@ module.exports = {
           children: ["", "listening", "reading"]
         }
       ],
-      "/translator/": [
+      "/chinese/": [
+        {
+          title: "中文",
+          collapsable: false,
+          children: [""]
+        }
+      ],
+      "/practicalTranslation/": [
         {
           title: "翻译练习",
           collapsable: false,
-          children: ["", "skill"]
+          children: [""]
         }
       ]
     },
